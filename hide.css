@@ -17,6 +17,6 @@
     display: none;
 }
 
-#canvas-container #loading-gui #loading-powered-by {
+#loading-powered-by {
     bottom: -100%;
 }
