@@ -16,3 +16,7 @@
 #nhr .icon-share {
     display: none;
 }
+
+#canvas-container #loading-gui #loading-powered-by {
+    display:none !important;
+}
