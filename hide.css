@@ -17,6 +17,6 @@
     display: none;
 }
 
-#loading-powered-by {
-    bottom: -100%;
+#loading-gui #loading-powered-by {
+    bottom: -100% !important;
 }
