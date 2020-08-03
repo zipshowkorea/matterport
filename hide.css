@@ -18,5 +18,5 @@
 }
 
 #canvas-container #loading-gui #loading-powered-by {
-    display:none !important;
+    bottom: -100%;
 }
