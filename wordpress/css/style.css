@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     width: 853px;
     height: 480px;
+    overflow: hidden;
 }
 
 .play_button {
@@ -61,4 +62,5 @@
     left: 0;
     top: 0;
     z-index: -1;
+    height: 103.8%;
 }
