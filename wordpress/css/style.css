@@ -10,7 +10,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     width: 853px;
-    height: 480px;
+    height: 460px;
     overflow: hidden;
 }
 
@@ -39,6 +39,16 @@
     cursor: pointer;
 }
 
+.play_logo {
+    background-image: url('https://zipshowkorea.github.io/matterport/wordpress/logo.png');
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
 .show-case-title {
     position: absolute;
     bottom: 75%;
@@ -62,5 +72,4 @@
     left: 0;
     top: 0;
     z-index: -1;
-    height: 103.8%;
 }
