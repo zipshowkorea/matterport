@@ -42,8 +42,8 @@
 .play_logo {
     background-image: url('https://zipshowkorea.github.io/matterport/wordpress/logo.png');
     display: inline-block;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
     background-size: contain;
     background-position: 50% 50%;
     background-repeat: no-repeat;
