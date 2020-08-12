@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+.cover-page {
+    position: relative;
+    background-color: #fff;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 853px;
+    height: 480px;
+    overflow: hidden;
+}
+
+.play_button {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-top: 150px;
+    position: absolute;
+    display: table;
+    width: 100%;
+}
+
+.play_button_image {
+    background-image: url('http://zipshowkorea.com/wp-content/uploads/2020/08/play-icon.svg');
+    display: inline-block;
+    width: 130px;
+    height: 145px;
+    max-width: 50vw;
+    max-height: 50vw;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.play_logo {
+    background-image: url('https://zipshowkorea.github.io/matterport/wordpress/logo.png');
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+.show-case-title {
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
+    width: 90%;
+    padding: 0 25px;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    font-size: 2rem;
+    font-weight: 100;
+    text-shadow: 0 0 10px #0f1011;
+    margin: 0.67em 0;
+    max-width: 1600px;
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+}
+
+#showcase {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
