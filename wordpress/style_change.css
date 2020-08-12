@@ -1,0 +1,28 @@
+#footer .icon-matterport-brand img {
+    display: none;
+}
+
+#footer .icon-matterport-brand {
+    width: 68px;
+    height: 16px;
+    background: url('https://zipshowkorea.github.io/wordpress/logo.png');
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.loading-label{
+    display: none;
+    opacity: 0 !important;
+}
+#loading-mp-logo {
+    display: none;
+    opacity : 0 !important;
+}
+#nhr {
+    bottom: 3px !important;
+}
+
+#nhr .icon-share {
+    display: none;
+}
