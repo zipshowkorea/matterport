@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height: 100%;
+}
+
+.cover-page {
+    position: relative;
+    background-color: #fff;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.play_button {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.play_button_inner {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.play_button_image {
+    background-image: url('http://zipshowkorea.com/wp-content/uploads/2020/08/play-icon.svg');
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.play_button_text {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translateX(-50%);
+}
+
+.play_logo {
+    background-image: url('https://zipshowkorea.github.io/matterport/wordpress/logo.png');
+    display: inline-block;
+    width: 20%;
+    height: 10%;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+
+}
+.show-case-title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 90%;
+    padding: 0 25px;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    font-size: 5vh;
+    font-weight: 100;
+    text-shadow: 0 0 10px #0f1011;
+    max-width: 1600px;
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+}
+
+#showcase {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
