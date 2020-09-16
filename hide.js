@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $("#snapshots").css({"display":"none !important"})
+    $("#snapshots").css({"display":"absolute","bottom":"-100px"});
 })
