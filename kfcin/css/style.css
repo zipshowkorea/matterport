@@ -51,7 +51,7 @@ body {
     text-align: center;
     font-weight: bold;
     color: #fff;
-    text-shadow: 0 0 10px #0f1011;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
     font-size: 3vh;
 }
 
@@ -64,7 +64,7 @@ body {
     padding-top: 15vh;
     font-size: 5vh;
     font-weight: 100;
-    text-shadow: 0 0 10px #0f1011;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
     color: #fff;
     text-align: center;
     font-family: Open Sans, sans-serif;
