@@ -35,7 +35,7 @@ body {
     text-align: center;
 }
 .play_button_image {
-    background-image: url('http://zipshowkorea.com/wp-content/uploads/2020/08/play-icon.svg');
+    background-image: url('../play-icon.svg');
     display: inline-block;
     width: 40%;
     height: 100%;
