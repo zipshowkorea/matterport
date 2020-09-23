@@ -5,3 +5,7 @@
 #nhr .icon-share {
     display: none !important;
 }
+
+#footer {
+    display: none !important;
+}
