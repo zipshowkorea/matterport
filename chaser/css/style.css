@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height: 100%;
+}
+
+.cover-page {
+    position: relative;
+    background-color: #fff;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.play_button {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.play_button_inner {
+    padding-top: 10vh;
+    height: 25vh;
+    margin: 0 auto;
+    text-align: center;
+}
+.play_button_image {
+    background-image: url('http://zipshowkorea.com/wp-content/uploads/2020/08/play-icon.svg');
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 2vw;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #0f1011;
+}
+
+.play_button_text {
+    margin: 0 auto;
+    padding-top: 10vh;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #0f1011;
+    font-size: 3vh;
+}
+
+.play_logo {
+    height: 20vh;
+    margin: 0 auto;
+
+}
+.show-case-title {
+    padding-top: 15vh;
+    font-size: 5vh;
+    font-weight: 100;
+    text-shadow: 0 0 10px #0f1011;
+    color: #fff;
+    font-weight: 550;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    margin: auto;
+}
+
+#showcase {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 3s;
+}
+
+.fa-camera {
+    display: none;
+}
+
