@@ -13,3 +13,7 @@
 #nhr #footer #footer-terms span.icon-matterport-brand {
     width: 120px !important;
 }
+
+#vertical-flex {
+    display: none !important;
+}
