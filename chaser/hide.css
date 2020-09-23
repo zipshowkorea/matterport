@@ -1,25 +1,7 @@
-
-.loading-label{
-    display: none;
-    opacity: 0 !important;
-}
-
 .view-in-vr {
-    display: none;;
-}
-
-#loading-mp-logo {
-    display: none;
-    opacity : 0 !important;
-}
-#nhr {
-    bottom: 3px !important;
+    display: none !important;
 }
 
 #nhr .icon-share {
-    display: none;
-}
-
-#loading-gui #loading-powered-by {
-    bottom: -100% !important;
+    display: none !important;
 }
