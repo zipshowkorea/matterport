@@ -9,3 +9,7 @@
 #nhr #footer-terms span.link, #nhr #footer-terms span.link {
     display: none !important;
 }
+
+#nhr #footer #footer-terms span.icon-matterport-brand {
+    width: 100px !importnat;
+}
