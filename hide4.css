@@ -1,7 +1,26 @@
+#footer {
+    display: none
+}
+.loading-label{
+    display: none;
+    opacity: 0 !important;
+}
+#loading-mp-logo {
+    display: none;
+    opacity : 0 !important;
+}
+#nhr {
+    bottom: 3px !important;
+}
+
+#nhr .icon-share {
+    display: none;
+}
+
 #loading-gui #loading-powered-by {
     bottom: -100% !important;
 }
 
-#nhr #footer #footer-terms span.icon-matterport-brand {
-    width: 120px !important;
+#vertical-flex {
+    display: none !important;
 }
