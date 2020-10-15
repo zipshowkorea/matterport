@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var pccfLogo = $('#main-title #logo');
     
-    var sns = $('.fa-external-link-alt')
+    var sns = $('.fa-external-link-alt:before')
     sns.html(' ');
     sns.css({'background':'https://www.instagram.com/static/images/ico/favicon.svg/fc72dd4bfde8.svg'});
     var instagram = $('#summary') ;
