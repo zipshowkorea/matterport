@@ -1,0 +1,15 @@
+.view-in-vr {
+    display: none !important;
+}
+
+#nhr .icon-share {
+    display: none !important;
+}
+
+#nhr #footer-terms span:not(.icon-matterport-brand) {
+    display: none !important;
+}
+
+#nhr #footer #footer-terms span.icon-matterport-brand {
+    width: 100px !important;
+}
