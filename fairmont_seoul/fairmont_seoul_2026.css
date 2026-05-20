@@ -1,3 +1,4 @@
+/* 1. 기존에 설정하신 UI 숨김 처리 (그대로 유지) */
 .view-in-vr {
     display: none !important;
 }
@@ -10,17 +11,37 @@
     display: none !important;
 }
 
+/* 2. 문제의 로고 span 영역 수정 (위치 강제 지정 및 끌어올리기) */
 #nhr #footer #footer-terms span.icon-matterport-brand {
-    width: 100px !important;
-    margin-right: 46px;
-    margin-bottom: 20px;
+    display: inline-block !important;
+    width: 120px !important;    /* 로고 크기를 120px로 살짝 키웠습니다 */
+    height: auto !important;
+    position: absolute !important;
+    right: 20px !important;     /* 우측 벽면 여백 */
+    bottom: 30px !important;    /* ★ 잘리지 않도록 바닥에서 위로 30px 끌어올림 */
+    z-index: 9999 !important;   /* 화면 최상단 래핑 */
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
 }
 
-/* 1. 하단 바 영역 전체의 높이를 컨텐츠 크기에 맞게 자동으로 늘려주고 여백 확보 */
-#nhr #footer {
+/* 3. 로고 내부의 a 태그와 img 태그가 잘리지 않고 온전히 출력되도록 제어 */
+#nhr #footer #footer-terms span.icon-matterport-brand a {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#nhr #footer #footer-terms span.icon-matterport-brand img {
+    width: 100% !important;
     height: auto !important;
-    min-height: 60px !important; /* 컨텐츠 높이에 따라 80px, 100px 등으로 조절 */
-    padding-bottom: 15px !important;
-    display: flex !important;
-    align-items: center !important;
+    object-fit: contain !important;
+    display: block !important;
+}
+
+/* 4. 부모 하단바 틀이 자식 요소를 자르지 못하도록 투명 래핑 해제 */
+#nhr #footer, 
+#nhr #footer #footer-terms {
+    overflow: visible !important;
+    height: auto !important;
 }
