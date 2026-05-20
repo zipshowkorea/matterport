@@ -7,7 +7,7 @@ $(document).ready(function(){
 
         // 1. 로고 이미지 및 alt 속성 변경
         $logoImg.attr('src', 'https://zipshowkorea.github.io/matterport/fairmont_seoul/Fairmont_seoul_Black.png');
-        $logoImg.attr('alt', '페어몬트 앰배서더 서울 로고');
+        $logoImg.attr('alt', 'Fairmont Ambassador Seoul Logo');
 
         // 2. 링크 주소 속성 변경 및 매터포트 고유 클릭 이벤트 가로채기
         if($logoLink.length > 0) {
