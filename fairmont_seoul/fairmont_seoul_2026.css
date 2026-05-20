@@ -12,6 +12,13 @@ div[class*="loading"] svg {
     visibility: hidden !important;
 }
 
+/* 2. MPEmbed 전용 오버레이 로딩 창 내부의 매터포트 로고도 함께 차단 */
+#mp-loading-overlay img,
+#loading-overlay,
+.mp-loading-container {
+    background-image: none !important; /* 혹시 배경 이미지로 박혀있을 경우 대비 */
+}
+
 /* 1. 하단 우측 버튼 숨기기 (Share, VR Mode 버튼 전체) */
 .view-in-vr,
 .icon-share,
