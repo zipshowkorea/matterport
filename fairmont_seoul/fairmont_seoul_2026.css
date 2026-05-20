@@ -24,17 +24,3 @@
     display: flex !important;
     align-items: center !important;
 }
-
-/* 2. 매터포트 자체 UI가 겹쳐서 잘린다면 하단 약관/로고 영역의 위치를 강제로 조정 */
-#nhr #footer #footer-terms {
-    bottom: 10px !important;
-    height: auto !important;
-}
-
-/* 3. 추가하신 커스텀 컨텐츠가 iframe이나 특정 클래스로 감싸져 있다면 overflow 해제 */
-.custom-contents-class, /* 실제 사용하신 클래스명이나 ID로 변경해 주세요 */
-#custom-contents-id {
-    display: block !important;
-    height: auto !important;
-    overflow: visible !important;
-}
