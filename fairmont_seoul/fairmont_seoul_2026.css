@@ -1,3 +1,17 @@
+/* 1. 첫 로딩 시 화면 중앙에 나오는 POWERED BY 매터포트 로고 및 안내 숨기기 */
+.loading-screen,
+.loading-page,
+[class*="loading-screen"] img,
+[class*="load-container"] svg,
+.showcase-loading-logo,
+.matterport-loading-overlay,
+div[class*="powered-by"],
+div[class*="loading"] svg {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
 /* 1. 하단 우측 버튼 숨기기 (Share, VR Mode 버튼 전체) */
 .view-in-vr,
 .icon-share,
