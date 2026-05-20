@@ -1,0 +1,40 @@
+.view-in-vr {
+    display: none !important;
+}
+
+#nhr .icon-share {
+    display: none !important;
+}
+
+#nhr #footer-terms span:not(.icon-matterport-brand) {
+    display: none !important;
+}
+
+#nhr #footer #footer-terms span.icon-matterport-brand {
+    width: 100px !important;
+    margin-right: 46px;
+    margin-bottom: 20px;
+}
+
+/* 1. 하단 바 영역 전체의 높이를 컨텐츠 크기에 맞게 자동으로 늘려주고 여백 확보 */
+#nhr #footer {
+    height: auto !important;
+    min-height: 60px !important; /* 컨텐츠 높이에 따라 80px, 100px 등으로 조절 */
+    padding-bottom: 15px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* 2. 매터포트 자체 UI가 겹쳐서 잘린다면 하단 약관/로고 영역의 위치를 강제로 조정 */
+#nhr #footer #footer-terms {
+    bottom: 10px !important;
+    height: auto !important;
+}
+
+/* 3. 추가하신 커스텀 컨텐츠가 iframe이나 특정 클래스로 감싸져 있다면 overflow 해제 */
+.custom-contents-class, /* 실제 사용하신 클래스명이나 ID로 변경해 주세요 */
+#custom-contents-id {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+}
