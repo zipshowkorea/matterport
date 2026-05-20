@@ -1,17 +1,54 @@
-.view-in-vr {
+/* 1. 하단 우측 버튼 숨기기 (Share, VR Mode 버튼 전체) */
+.view-in-vr,
+.icon-share,
+button[aria-label*="Share"],
+button[aria-label*="VR"],
+button[class*="share"],
+button[class*="vr"] {
     display: none !important;
 }
 
-#nhr .icon-share {
+/* 2. 하단 Help(도움말), Terms(이용약관/개인정보) 및 관련 텍스트 숨기기 */
+#nhr #footer #footer-terms a[href*="terms"],
+#nhr #footer #footer-terms a[href*="privacy"],
+#nhr #footer #footer-terms a[href*="help"],
+#nhr #footer #footer-terms span:not(.icon-matterport-brand),
+.footer-link,
+[class*="footer-terms"] a {
     display: none !important;
 }
 
-#nhr #footer-terms span:not(.icon-matterport-brand) {
-    display: none !important;
-}
-
+/* 3. 우측 하단 클라이언트 로고 위치 및 잘림 방지 (기존 설정 유지 및 fixed 보정) */
 #nhr #footer #footer-terms span.icon-matterport-brand {
-    width: 100px !important;
-    margin-right: 46px;
-    margin-bottom: 20px;
+    display: inline-block !important;
+    width: 100px !important;    /* 로고 가로 크기 */
+    height: auto !important;
+    position: fixed !important; /* 화면에 절대 고정 */
+    right: 46px !important;     /* 우측 마진 */
+    bottom: 20px !important;    /* 하단 마진 (로고가 나침반 등에 가려지면 30px~40px로 올려보세요) */
+    z-index: 9999 !important;   /* 최상단 레이어 배치 */
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+}
+
+/* 4. 로고 이미지 비율 유지 및 깨짐 방지 */
+#nhr #footer #footer-terms span.icon-matterport-brand a {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#nhr #footer #footer-terms span.icon-matterport-brand img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+    display: block !important;
+}
+
+/* 5. 부모 하단바 틀이 자식 요소를 가두거나 자르지 못하도록 강제 해제 */
+#nhr #footer, 
+#nhr #footer #footer-terms {
+    overflow: visible !important;
+    height: auto !important;
 }
