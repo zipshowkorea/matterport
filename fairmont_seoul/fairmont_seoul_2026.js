@@ -11,7 +11,7 @@ $(document).ready(function(){
 
         // 2. 링크 주소 속성 변경 및 매터포트 고유 클릭 이벤트 가로채기
         if($logoLink.length > 0) {
-            var targetUrl = "https://www.ambatel.com/fairmont/seoul/ko/main.do";
+            var targetUrl = "https://fairmont-seoul.com/";
             
             // HTML 속성 자체를 페어몬트 주소로 변경
             $logoLink.attr('href', targetUrl);
