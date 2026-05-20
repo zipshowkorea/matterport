@@ -1,4 +1,3 @@
-/* 1. 기존 UI 숨김 처리 (유지) */
 .view-in-vr {
     display: none !important;
 }
@@ -11,37 +10,8 @@
     display: none !important;
 }
 
-/* 2. 로고 위치를 우측 하단 레이어 위쪽으로 강제 이동 및 고정 */
 #nhr #footer #footer-terms span.icon-matterport-brand {
-    display: inline-block !important;
-    width: 120px !important;    /* 로고 가로 크기 */
-    height: auto !important;
-    position: fixed !important; /* 화면에 절대 고정 */
-    right: 15px !important;     /* 우측 벽면 여백 */
-    bottom: 65px !important;    /* ★ 우측 하단 버튼들(나침반 등)에게 밟히지 않도록 위로 끌어올림 */
-    z-index: 9999 !important;   /* 최상단 레이어 배치 */
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: visible !important;
-}
-
-/* 3. 로고 이미지 비율 유지 및 깨짐 방지 */
-#nhr #footer #footer-terms span.icon-matterport-brand a {
-    display: block !important;
-    width: 100% !important;
-    height: 100% !important;
-}
-
-#nhr #footer #footer-terms span.icon-matterport-brand img {
-    width: 100% !important;
-    height: auto !important;
-    object-fit: contain !important;
-    display: block !important;
-}
-
-/* 4. 하단 레이아웃 자름 방지 */
-#nhr #footer, 
-#nhr #footer #footer-terms {
-    overflow: visible !important;
-    height: auto !important;
+    width: 100px !important;
+    margin-right: 46px;
+    margin-bottom: 20px;
 }
